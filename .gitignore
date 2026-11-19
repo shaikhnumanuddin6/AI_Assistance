@@ -6,6 +6,7 @@
 # Python virtual environments
 venv/
 .venv/
+env/
 
 # Python cache
 __pycache__/
@@ -18,3 +19,7 @@ __pycache__/
 .pytest_cache/
 .coverage
 htmlcov/
+
+# Streamlit secrets and generated files
+.streamlit/secrets.toml
+*.log
